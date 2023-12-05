@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 8vw;
+}
+
+main {
+    margin-top: 50px;
+}
+
+div + div {
+    margin-top: 25px;
+}
+
+h1 {
+    margin: 0;
+}
+
+span {
+    font-size: 2em;
+}
+
+.compteur {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 115px;
+}
+
+.compteur > div {
+    display: flex;
+}
+
+.compteur button + button {
+    margin-left: 5px;
+}
+
+/* Styles des états de l'élément "nombre" à définir */
